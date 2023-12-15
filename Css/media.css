@@ -429,6 +429,12 @@
   }
 }
 
+@media (max-width: 425px) {
+  .block1 {
+    width: 42%;
+  }
+}
+
 @media (max-width: 375px) {
   .hero-info h1 {
     font-size: 47px;

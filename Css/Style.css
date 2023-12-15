@@ -5,8 +5,8 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  
 }
+
 #backgraund {
   height: 100%;
 
@@ -195,6 +195,9 @@ a {
 }
 
 .works-img:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.70) 89.06%), url(/img/maket.png), no-repeat center/ cover;
   opacity: 0.7;
   
@@ -229,6 +232,7 @@ a {
 
 }
 .works-img:hover p {
+
   display: block;
 }
 
@@ -507,6 +511,7 @@ margin: 0px 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 20px 0;
 }
 
 .product-form {

@@ -435,7 +435,7 @@
   }
   .block1 {
     margin: 0;
-    width: 42%;
+    width: 41%;
   }
   .block1 img {
     margin: 5px 0;
@@ -452,6 +452,7 @@
   }
   .product-inform-2 {
     width: 337px;
+    height: 500px;
   }
   .product-info-2 {
     margin: 18px;
@@ -486,5 +487,77 @@
     width: 303px;
     height: 21px;
     font-size: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .hero-info h1 {
+    font-size: 40px;
+  }
+  .block1 {
+    margin: 0;
+    width: 40%;
+    padding: 9px;
+  }
+  .works-img {
+    width: 313px;
+    height: 209px;
+  }
+  .works-icon {
+    width: 313px;
+    height: 209px;
+  }
+}
+
+@media (max-width: 320px) {
+  .block-shadow-1 {
+    width: 312px;
+  }
+  .block-shadow {
+    width: 310px;
+  }
+  .block-service {
+    width: 310px;
+    height: 355px;
+  }
+  .product-inform {
+    width: 312px;
+  }
+  .figure-4 {
+    width: 250px;
+  }
+  .figure-5 {
+    width: 226px;
+  }
+  .figure-6 {
+    width: 267px;
+  } 
+  .product-inform-2 {
+    width: 312px;
+  }
+  .product-info-2 h2 {
+    font-size: 33px;
+  }
+  .product-info-2 {
+    margin: 10px;
+  }
+  .product-ul-2 ul {
+    gap: 5px;
+  }
+  .product-ul ul {
+    gap: 5px;
+  }
+  .product-info-2 p {
+    margin: 5px 0;
+  }
+  .product-border {
+    height: 100px;
+  }
+  .name-city input {
+    width: 41%;
+  }
+  .block1 {
+    width: 39%;
+    padding: 8px;
   }
 }

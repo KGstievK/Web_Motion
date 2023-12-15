@@ -433,6 +433,13 @@
   .block1 {
     width: 42%;
   }
+  .block1 img {
+    margin: 4px 0;
+  
+  }
+  .tabs-label {
+    width: 70%;
+  }
 }
 
 @media (max-width: 375px) {
